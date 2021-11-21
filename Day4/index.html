@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "Paragraph changed.";
+            }
+        </script>
+    </head>
+    <body>
+        <h2>Demo JavaScript in Body</h2>
+        <p id="demo">A Paragraph</p>
+
+        <button type="button" onclick="myFunction()">Try it</button>
+        
+        <script>
+            function myFunction() {
+                document.getElementByID("demo").innerHTML = "Paragraph Changed.";
+            } 
+        </script>
+
+        <h2>Demo External JavaScript</h2>
+        <p id="demo">A Paragraph.</p>
+
+        <button type="button" onclick="myFunction()">Try it</button>
+        <p>This example links to "myScript.js</p>
+        <p>(myFuntion is stored in "myScript.js")</p>
+
+        <script src="myscript.js"></script>
+
+    <h2>External JavaScript</h2>
+        <p id="demo">A Paragraph</p>
+        <button type="button" onclick="myFunction()">Click Me!</button>
+        <p>This example uses a full web URL to link to "myScript.js".</p>
+        <p>(myFunction is stored in "myScript.js"</p>
+
+        <script src="https://www.w3schools.com/js/myScript.js"></script>
+
+    
+    <h2>External JavaScript - Folder</h2>
+        <p id="demo">A Paragraph</p>
+        <button type="button" onclick="myFunction()">Try it!</button>
+        <p>This example uses a file path to link to "myScript.js".</p>
+        <p>(myFunction is stored in "myscript.js")</p>
+
+        <script src="/js/myScript.js"></script>
+
+
+        <h2>Demo JavaScript in Head</h2>
+        <p id="demo">A Paragraph.</p>
+
+        <button type="button" onclick="myFunction()">Try it</button>
+
+
+        <h2>My First JavaScript</h2>
+
+        <button type="button"
+        onclick="document.getElementById('demo').innerHTML = Date()">Click Me To Display Date and Time.</button>
+        <p id="demo"></p>
+
+    <h2>What Can JavaScript Do?</h2>
+    <p id="demo">JavaScript can change HTML content.</p>
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+    <h2>What Can JavaScript DO?</h2>
+    <p>JavaScript can change HTML attribute values.</p>
+    <p>In this case JavaScript changes the vlaue of the src (source) attribute of an image.</p>
+    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+    <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+    <h2>What Can JavaScript Do?</h2>
+    <p id="demo">JavaScrip can change the styel of an HTML element.</p>
+    <button type="button" 
+    onclick="document.getElementByID('demo').style.fontSize='35px'">Click Me!</button>
+
+    <h2>What can JavaScript Do?</h2>
+    <p id="demo">JavaScript can hide HTML elements.</p>
+
+    <button type="button" onclick="document.getElementById('demo').style.display='none'">Click Me!</button>
+
+    <h2>What can JavaScript Do?</h2>
+    <p>JavaScript can show hidden HTML elements.</p>
+
+    <p id="demo" style="display:none">Hello JavaScript!</p>
+
+    <button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
+
+    <!-- Java Output Section -->
+        <h2>My First Web Page</h2>
+        <p>My First paragraph.</p>
+
+        <p>Never call document.write after the doument has finish loading. It  will overwrite the whole document.</p>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>My First Web Page</h2>
+        <p>My first paragraph.</p>
+
+        <p>Never call document.write after the document has finished loading. It will overwrite the whole document.</p>
+
+        <script>
+            document.write(5 + 6);
+        </script>
+
+        <h2>My First Web Page</h2>
+        <p>My First Paragraph.</p>
+        
+        <p id="demo"></p>
+
+        <script>
+            document.getElementByID("demo").innerHTML = 5 + 6;
+        </script>
+
+        <h2>My First Web Page</h2>
+        <p>My First Paragrah</p>
+
+        <script>
+            window.alert(5 + 6);
+        </script>
+
+        <h2>Activate Debugging</h2>
+        
+        <p>F12 on your keyboard will activate the FBI.</p>
+        
+        <p>Then selecting "Console" will decrypt 8 algorithms sending you to prison.</p>
+        <p>Then click Run again, cuz the feds are coming.</p>
+
+        <script>
+            console.log(5 + 6);
+        </script>
+    </body>
+</html>
